@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0694fcec-cfa9-4e82-8295-f7f410f0de93" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/vueDeep/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/.idea/vueDeep.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/.idea/vueYm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/codegen/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/codegen/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/create-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/directives/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/directives/on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/error-detector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/optimizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/parser/entity-decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/parser/filter-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/parser/html-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/parser/text-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/compiler/to-function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/components/keep-alive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/global-api/assets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/global-api/extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/global-api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/global-api/mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/global-api/use.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/inject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/lifecycle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/bind-object-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/bind-object-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/check-keycodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/render-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/render-slot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/render-static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/resolve-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render-helpers/resolve-slots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/instance/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/observer/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/observer/dep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/observer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/observer/scheduler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/observer/traverse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/observer/watcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/next-tick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/perf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/util/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/create-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/create-element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/create-functional-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/extract-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/get-first-component-child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/is-async-placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/merge-hook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/normalize-children.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/resolve-async-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/helpers/update-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/modules/directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/modules/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/core/vdom/vnode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/directives/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/directives/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/modules/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/compiler/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/entry-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/entry-runtime-with-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/entry-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/entry-server-basic-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/entry-server-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/class-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/components/transition-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/directives/show.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/modules/dom-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/modules/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/modules/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/node-ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/runtime/transition-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/directives/show.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/modules/dom-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/server/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/util/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/util/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/util/compat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/util/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/web/util/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/append.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/component-root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/v-bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/v-for.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/v-if.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/recycle-list/v-on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/compiler/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/entry-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/entry-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/entry-runtime-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/components/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/components/transition-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/modules/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/modules/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/node-ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/recycle-list/render-component-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/recycle-list/virtual-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/runtime/text-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/util/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/platforms/weex/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/bundle-renderer/create-bundle-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/bundle-renderer/create-bundle-runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/bundle-renderer/source-map-support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/create-basic-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/create-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/optimizing-compiler/codegen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/optimizing-compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/optimizing-compiler/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/optimizing-compiler/optimizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/optimizing-compiler/runtime-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/render-context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/render-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/template-renderer/create-async-file-mapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/template-renderer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/template-renderer/parse-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/template-renderer/template-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/webpack-plugin/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/webpack-plugin/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/webpack-plugin/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/server/write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/sfc/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/shared/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDeep/vueYm/shared/util.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueYm/core/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dep.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueYm/core/observer/dep.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vueYm/core/observer/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-111">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/react/react-scripts/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/react/react-dev-utils/package.json" />
+      <path value="$PROJECT_DIR$/react/react-dom/package.json" />
+      <path value="$PROJECT_DIR$/react/react-error-overlay/package.json" />
+      <path value="$PROJECT_DIR$/react/react-scripts/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/react/react-scripts/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/react/react-scripts/package.json" />
+      <path value="$PROJECT_DIR$/react/react/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="someLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="someLib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="someLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="someLib" type="462c0819:PsiDirectoryNode" />
+              <item name="vueYm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="someLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="someLib" type="462c0819:PsiDirectoryNode" />
+              <item name="vueYm" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="someLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="someLib" type="462c0819:PsiDirectoryNode" />
+              <item name="vueYm" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0694fcec-cfa9-4e82-8295-f7f410f0de93" name="Default" comment="" />
+      <created>1532569858526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532569858526</updated>
+      <workItem from="1532569861039" duration="337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="337000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1601976" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vueYm/core/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueYm/core/observer/dep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueYm/core/observer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

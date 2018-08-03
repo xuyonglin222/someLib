@@ -38,14 +38,14 @@ export function initMixin (Vue: Class<Component>) {
         //如果当前Vue实例是组件，就为vm.$options添加一些属性
       initInternalComponent(vm, options)
     } else {
-      //不是Vue实例不是组件，而是实例化对象时，调用mergeOptions
+      //不是Vue实例不是组件，而是实例化对象时，调用mergeOptions,合并options
       vm.$options = mergeOptions(
         resolveConstructorOptions(vm.constructor),
         options || {},
         vm
       )
     }
-        // 第二步： renderProxy   这一步是干啥的啊
+        // 第二步： renderProxy   代理vm[data][xxx]==vm[xxx]
     if (process.env.NODE_ENV !== 'production') {
       initProxy(vm)
     } else {
