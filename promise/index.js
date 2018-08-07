@@ -1,132 +1,128 @@
-/**
- * author:xuyonglin
- * justplay
- */
 var PENDING = 0;
 var FULFILLED = 1;
 var REJECTED = 2;
 
-function Promise(fn) {
-    //状态
+function myPromise(fn) {
     var state = PENDING;
-    //传递的值
     var value = null;
-    //包含onFulfilled和onRejected的函数的对象的容器
     var handlers = [];
+    var e =null;
 
-    function fulfill(result) {
+    function resolve(val) {
+        if (val instanceof myPromise) {
+            try{
+                val.then(resolve);
+            }catch(e){
+                reject(e)
+            }
+            return;
+        }
         state = FULFILLED;
-        value = result;
+        value = val;
+        setTimeout(function () {
+            handlers.map(function (handler) {
+                handle(handler)
+            })
+        }, 0)
     }
 
     function reject(err) {
         state = REJECTED;
-        value = error;
-    }
-
-    function resolve(result) {
-        try {
-            //如果是result是promise返回then函数，否则返回null
-            var then = getThen(result);
-            if (then) {
-                doResolve(then.bind(result), resolve, reject)
-                return;
-            }
-            fulfill(result);
-        } catch (e) {
-            reject(e);
-        }
-    }
-
-    /**
-     * Check if a value is a Promise and, if it is,
-     * return the `then` method of that promise.
-     *
-     * @param {Promise|Any} value
-     * @return {Function|Null}
-     */
-    function getThen(value) {
-        var t = typeof value;
-        if (t && (t === 'object' || t === 'function')) {
-            var then = value.then;
-            if (typeof then === 'function') {
-                return then;
-            }
-        }
-        return null;
-    }
-
-
-    function doResolve(fn, onFulfilled, onRejected) {
-        var done = false;
-        try {
-            fn(function (value) {
-                if (done) return;
-                done = true;
-                onFulfilled(value);
-            }, function (reason) {
-                if (done) return
-                done = true;
-                onRejected(reason);
-            })
-        } catch (ex) {
-            if (done) return
-            done = true;
-            onRejected(ex);
-        }
+        e = err
     }
 
     function handle(handler) {
         if (state === PENDING) {
             handlers.push(handler);
-        } else {
-            if (state === FULFILLED &&
-                typeof handler.onFulfilled === 'function') {
-                handler.onFulfilled(value);
+            return;
+        }
+        // if(typeof handler.onFulfilled==='function'){
+        //     handler.onFulfilled(value);
+        //     return;
+        // }
+        try{
+            if (state === FULFILLED && typeof handler.onFulfilled === 'function') {
+                let ret = handler.onFulfilled(value);
+                handler.resolve(ret);
             }
-            if (state === REJECTED &&
-                typeof handler.onRejected === 'function') {
-                handler.onRejected(value);
-            }
+        }catch(e){
+            reject(e)
         }
     }
 
-    this.done = function(onFulfilled, onRejected){
-        //确保是异步执行
-        setTimeout(function(){
+    this.then = function (onFulfilled, onRejected) {
+        return new myPromise(function (resolve, reject) {
             handle({
-                onFulfilled: onFulfilled,
-                onRejected:onRejected
-            })
-        },0)
-    }
-
-    this.then = function(onFulfilled, onRejected){
-        var self = this;
-        return new Promise(function(resolve,reject){
-            return self.done(function (result){
-                if(typeof onFulfilled === 'function'){
-                    try {
-                        return resolve(onFulfilled(result));
-                    }catch(ex){
-                        return resolve(ex);
-                    }
-                }else{
-                    return resolve(result);
-                }
-            },function(error){
-                if (typeof onRejected === 'function') {
-                    try {
-                      return resolve(onRejected(error));
-                    } catch (ex) {
-                      return reject(ex);
-                    }
-                  } else {
-                    return reject(error);
-                  }
+                onFulfilled,
+                resolve,
             })
         })
     }
 
-    doResolve(fn,resolve,reject);
+    fn(resolve, reject);
 }
+myPromise.all = function (arr) {
+    return new myPromise(function(resolve){
+        let res =[];
+        function iterator(i){
+            if(i<3){
+                arr[i]().then(function(val){
+                    res.push(val);
+                    iterator(i+1);
+                })
+            }else{
+                resolve(res)
+            }
+        }
+        iterator(0)   
+    }) 
+}
+new myPromise(function (resolve, reject) {
+    setTimeout(function () {
+        resolve('ss')
+    }, 0)
+}).then(function (val) {
+    console.log(val);
+    return new myPromise(function (resolve, reject) {
+        setTimeout(function () {
+            resolve(val + 'xyl')
+        }, 0)
+    })
+}).then(function (val) {
+    console.log(val);
+    return new myPromise(function (resolve, reject) {
+        setTimeout(function () {
+            resolve(val + 'xyl222')
+        }, 0)
+    })
+}).then(function (val) {
+    console.log(val);
+})
+
+let p1 = function () {
+    return new myPromise(function (resolve) {
+        setTimeout(function () {
+            resolve('3000')
+        }, 3000);
+    });
+}
+
+
+
+let p2 = function () {
+    return new myPromise(function (resolve) {
+        setTimeout(function () {
+            resolve('2000')
+        }, 2000);
+    });
+}
+let p3 = function () {
+    return new myPromise(function (resolve) {
+         setTimeout(function () {
+            resolve('1000')
+        }, 1000);
+    });
+}
+myPromise.all([p1, p2, p3]).then(function (res) {
+    console.log(res)
+})
